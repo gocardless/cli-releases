@@ -1,8 +1,0 @@
----
-# This is a scaffold CircleCI config to help you get started with yours, and
-# check if CircleCI has been properly integrated with your new repository.
-#
-# Refer to CircleCI's configuration reference to build on:
-# https://circleci.com/docs/2.0/configuration-reference/
-
-version: 2
