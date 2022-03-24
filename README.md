@@ -1,6 +1,6 @@
 # Gocardless CLI
 
-The Gocardless CLI enables you to build and test your Gocarldless integration right from the terminal.
+The Gocardless CLI enables you to build and test your Gocardless integration right from the terminal.
 
 **A brief outline of things you can do with the CLI:**
 
@@ -11,6 +11,8 @@ The Gocardless CLI enables you to build and test your Gocarldless integration ri
 ## Installation
 
 Gocardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
+
+Refer to the [getting started page] (https://developer.gocardless.com/getting-started/developer-tools/gocardless-cli/) for more on how to get started
 
 ### macOS
 
