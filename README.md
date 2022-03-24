@@ -1,56 +1,78 @@
-# Blank Template
+# Gocardless CLI
 
-> TODO: Describe your service here, indicating its purpose and the features it provides.
-> Example: [appetiser](https://github.com/gocardless/appetiser#appetiser)
+The Gocardless CLI enables you to build and test your Gocardless integration right from the terminal.
+
+**A brief outline of things you can do with the CLI:**
+
+- Trigger events directly from terminal and test webhooks 
+- Transition payment objects from one state to another
+- Create, retrieve, update, or delete API objects.
+
+## Installation
+
+Gocardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
+
+Refer to the [getting started page] (https://developer.gocardless.com/getting-started/developer-tools/gocardless-cli/) for more on how to get started
+
+### macOS
+
+Gocardless CLI is available on macOS via [Homebrew](https://brew.sh/):
+
+```sh
+brew install gocardless/taps/gc-cli
+```
+
+### Linux
+
+Refer to the [installation instructions](https://developer.gocardless.com/cli-reference#installation) for available Linux installation options.
+
+### Windows
+
+Refer to the [installation instructions](https://developer.gocardless.com/cli-reference#installation) for available Windows installation options.
+
+### Docker
+
+The CLI is also available as a Docker image: [`gocardless/gc-cli`](https://hub.docker.com/r/gocardless/gc-cli).
+
+```sh
+docker run -rm -it gocardless/gc-cli:latest version
+gc-cli version x.y.z (beta)
+```
+
+You can execute commands by passing them as arguments to it.
 
 ## Usage
 
-> TODO: Describe how you use your service here.
-> Example: [appetiser](https://github.com/gocardless/appetiser#usage)
+Once installed, you now have access to the `gc` command.
 
-## Contributing
+```sh-session
+gc [command]
 
-### Structure
+# Run `--help` for detailed information about CLI commands
+gc [command] help
+```
 
-> TODO: What's the structure of your code? For example, do you have separate server and client codebases?
->Example: [appetiser](https://github.com/gocardless/appetiser#how-is-appetiser-built)
+## Commands
 
-### Infrastructure
+The Gocardless CLI supports a broad range of commands. Below is some of the most used ones:
+- [`login`](https://developer.gocardless.com/cli-reference/gc_login/)
+- [`listen`](https://developer.gocardless.com/cli-reference/gc_listen/)
+- [`trigger`](https://developer.gocardless.com/cli-reference/gc_trigger/)
+- [`list`](https://developer.gocardless.com/cli-reference/gc_list/)
+- [`get`](https://developer.gocardless.com/cli-reference/gc_get/)
+- [`config`](https://developer.gocardless.com/cli-reference/gc_config/)
+- [`open`](https://developer.gocardless.com/cli-reference/gc_open/)
+- [`create`](https://developer.gocardless.com/cli-reference/gc_create/)
 
-> TODO: What infrastructure does your application depend on and what's the availability of these dependencies.
-> Example: [payment-service](https://github.com/gocardless/payments-service#infrastructure-dependencies)
+## Documentation
 
-### Monitoring and Alerting
+For a full reference, see the [CLI reference site](https://developer.gocardless-staging.io/cli-reference)
 
-> TODO: What monitoring and alerting does your application have?
-> Example: [appetiser](https://github.com/gocardless/appetiser#monitoring-and-alerting)
+## Feedback
 
-### Dependencies
+For any feedback you might have for us, please open an issue within the repository.
 
-> TODO: What dependencies do you require to build this service locally (eg. Docker, Ruby)?
-> Example: [appetiser](https://github.com/gocardless/appetiser#dependencies)
+## License
+Copyright (c) Gocardless. All rights reserved.
 
-### Getting started
-
-> TODO: Provide a step-by-step guide to running the service locally from a clean git clone.
-> Example: [appetiser](https://github.com/gocardless/appetiser#getting-started)
-
-### Testing
-
-> TODO: How do you run your service's automated tests?
-> Example: [appetiser](https://github.com/gocardless/appetiser#testing)
-
-### Deployment
-
-> TODO: How is your service deployed?
-> Example: [appetiser](https://github.com/gocardless/appetiser#deployment)
-
-### Configuration and Environment Variables
-
-> TODO: Does your service have any environment variables? If so, what behaviour is governed by their values?
-> Example: [appetiser](https://github.com/gocardless/appetiser#configuration)
-
-## Learning resources
-
-> TODO: Any useful learning resources a developer may want to read regarding your service?
-> Example: [appetiser](https://github.com/gocardless/appetiser#learning-resources)
+Licensed under the [Apache License 2.0 license](LICENSE).
