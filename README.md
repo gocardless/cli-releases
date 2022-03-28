@@ -19,7 +19,7 @@ Refer to the [getting started page] (https://developer.gocardless.com/getting-st
 Gocardless CLI is available on macOS via [Homebrew](https://brew.sh/):
 
 ```sh
-brew install gocardless/taps/gc-cli
+brew install gocardless/taps/cli
 ```
 
 ### Linux
@@ -32,14 +32,25 @@ Refer to the [installation instructions](https://developer.gocardless.com/cli-re
 
 ### Docker
 
-The CLI is also available as a Docker image: [`gocardless/gc-cli`](https://hub.docker.com/r/gocardless/gc-cli).
+The GC CLI is also available as a [Docker image](https://hub.docker.com/r/gocardless/gc-cli).
+
+First set up a volume for the gc-cli container:
 
 ```sh
-docker run -rm -it gocardless/gc-cli:latest version
-gc-cli version x.y.z (beta)
+docker volume create gc_config
 ```
 
-You can execute commands by passing them as arguments to it.
+To login
+
+```sh
+docker run -v gc_cli_config:/.gc-cli -p 8080:8080 --rm -it gocardless/gc-cli:latest login
+```
+
+To run commands
+
+```sh
+docker run -v gc_cli_config:/.gc-cli --rm -it gocardless/gc-cli:latest [command]
+```
 
 ## Usage
 
