@@ -43,13 +43,13 @@ docker volume create gc_config
 To login
 
 ```sh
-docker run -v gc_cli_config:/.gc-cli -p 8080:8080 --rm -it gocardless/gc-cli:latest login
+docker run -v gc_config:/.gc-cli -p 8080:8080 --rm -it gocardless/gc-cli:latest login
 ```
 
 To run commands
 
 ```sh
-docker run -v gc_cli_config:/.gc-cli --rm -it gocardless/gc-cli:latest [command]
+docker run -v gc_config:/.gc-cli --rm -it gocardless/gc-cli:latest [command]
 ```
 
 ## Usage
