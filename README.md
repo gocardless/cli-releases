@@ -49,7 +49,10 @@ docker run -v gc_config:/.gc-cli -p 8080:8080 --rm -it gocardless/gc-cli:latest 
 To run commands
 
 ```sh
-docker run -v gc_config:/.gc-cli --rm -it gocardless/gc-cli:latest [command]
+```sh
+alias gc="docker run -v gc_cli_config:/.gc-cli --rm -it gocardless/gc-cli:latest"
+gc [command]
+```
 ```
 
 ## Usage
