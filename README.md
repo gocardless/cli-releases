@@ -46,6 +46,8 @@ To login
 docker run -v gc_config:/.gc-cli -p 8080:8080 --rm -it gocardless/gc-cli:latest login
 ```
 
+Refer to the [login instructions](https://developer.gocardless.com/cli-reference/gc_login) for other login variations
+
 To run commands
 
 ```sh
