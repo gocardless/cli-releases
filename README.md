@@ -52,7 +52,7 @@ To run commands
 
 ```sh
 ```sh
-alias gc="docker run -v gc_cli_config:/.gc-cli --rm -it gocardless/gc-cli:latest"
+alias gc="docker run -v gc_config:/.gc-cli --rm -it gocardless/gc-cli:latest"
 gc [command]
 ```
 ```
