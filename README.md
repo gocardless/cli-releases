@@ -8,6 +8,8 @@ The Gocardless CLI enables you to build and test your Gocardless integration rig
 - Transition payment objects from one state to another
 - Create, retrieve, update, or delete API objects.
 
+![demo](demo.gif)
+
 ## Installation
 
 Gocardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
