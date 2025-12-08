@@ -14,7 +14,7 @@ The GoCardless CLI enables you to build and test your GoCardless integration rig
 
 GoCardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
 
-Refer to the [getting started page] (https://developer.gocardless.com/getting-started/developer-tools/gocardless-cli/) for more on how to get started
+Refer to the [getting started page](https://developer.gocardless.com/getting-started/developer-tools/gocardless-cli/) for more on how to get started
 
 ### macOS
 
