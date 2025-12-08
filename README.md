@@ -1,6 +1,6 @@
-# Gocardless CLI
+# GoCardless CLI
 
-The Gocardless CLI enables you to build and test your Gocardless integration right from the terminal.
+The GoCardless CLI enables you to build and test your GoCardless integration right from the terminal.
 
 **A brief outline of things you can do with the CLI:**
 
@@ -12,13 +12,13 @@ The Gocardless CLI enables you to build and test your Gocardless integration rig
 
 ## Installation
 
-Gocardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
+GoCardless CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat and CentOS.
 
 Refer to the [getting started page] (https://developer.gocardless.com/getting-started/developer-tools/gocardless-cli/) for more on how to get started
 
 ### macOS
 
-Gocardless CLI is available on macOS via [Homebrew](https://brew.sh/):
+GoCardless CLI is available on macOS via [Homebrew](https://brew.sh/):
 
 ```sh
 brew install gocardless/taps/cli
@@ -72,7 +72,7 @@ gc [command] help
 
 ## Commands
 
-The Gocardless CLI supports a broad range of commands. Below is some of the most used ones:
+The GoCardless CLI supports a broad range of commands. Below is some of the most used ones:
 - [`login`](https://developer.gocardless.com/cli-reference/gc_login/)
 - [`listen`](https://developer.gocardless.com/cli-reference/gc_listen/)
 - [`trigger`](https://developer.gocardless.com/cli-reference/gc_trigger/)
@@ -91,6 +91,6 @@ For a full reference, see the [CLI reference site](https://developer.gocardless-
 For any feedback you might have for us, please open an issue within the repository.
 
 ## License
-Copyright (c) Gocardless. All rights reserved.
+Copyright (c) GoCardless. All rights reserved.
 
 Licensed under the [Apache License 2.0 license](LICENSE).
